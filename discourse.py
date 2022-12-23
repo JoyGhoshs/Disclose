@@ -282,7 +282,6 @@ def scan(url, b):
             print(f" [{Fore.GREEN}Catagory Scan{Fore.RESET}] found {len(catagories)} Catagories")
             print(f" [{Fore.GREEN}Catagories{Fore.RESET}] {catagories}")
             print("------------------------------------------------------------")
-    if b==True:
             print(f" -----------------------{Fore.RED}Brute Force{Fore.RESET}-----------------------")
             print(f" [{Fore.RED}Brute Force{Fore.RESET}] Started")
             for admin in admins:
